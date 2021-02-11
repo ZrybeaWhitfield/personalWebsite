@@ -1,0 +1,277 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+a{
+  border-radius: 1rem;
+  color: rgb(57,26, 54);
+  padding: .4rem;
+  text-decoration: none;
+
+}
+a:hover{
+  background:rgba(97,66,94, .6);
+}
+body {
+   font-family: "Turret Road", Helvetica, Arial, sans-serif;
+     background: rgb(228 228 240);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+
+}
+
+
+h1{
+  font-size: 4.5rem;
+  color: rgb(57,26, 54);
+
+}
+
+main{
+  margin-top: 5rem;
+
+}
+ footer{
+   height: 10rem;
+   width:100%;
+ }
+.header, h1, .portfolio{
+  font-family: 'Monoton';
+}
+
+/******************************************
+/*Header section
+/*******************************************/
+
+ header{
+   height: 15rem;
+   top: 0;
+   width:100%;
+ }
+
+ .logoHeader img{
+   display: block;
+   height: 10rem;
+   margin: 0 auto;
+}
+
+.logoHeader p, .logoIntro p{
+  text-align: center;
+}
+
+.locate ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+ .logoHeader{
+   font-family: "Stalinist One";
+   margin-left: 5%;
+   width: 15%;
+
+ }
+
+ .logoName{
+   font-size: 1.1rem;
+
+ }
+ .logoTitle{
+   color: rgb(250,250,250);
+   font-size: .8rem;
+ }
+
+
+ .locate{
+   font-size: 3rem;
+   position: absolute;
+   top: 5rem;
+   left:35%;
+   width: 60%;
+ }
+
+
+/* font-family: 'Monoton', cursive;
+font-family: 'Turret Road', cursive; */
+
+/******************************************
+/* Intro Section
+/*******************************************/
+.logoIntro img{
+  display: block;
+  height: 40rem;
+  margin: 0 auto;
+}
+.home a{
+  color: rgb(208, 72, 107);
+}
+.home a:hover{
+  background: none;
+  color: rgb(188, 65, 97);
+}
+.purchaseMe p{
+  font-size: 2.5rem;
+}
+.logoIntro{
+  font-family: "Stalinist One";
+}
+
+.homeName{
+  font-size: 4.4rem;
+}
+
+.homeTitle{
+  font-size: 3.2rem;
+}
+
+.socials{
+  font-size: 4rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.purchaseMe{
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 10rem;
+  text-align: center;
+  font-size: 5rem;
+  text-decoration: none;
+
+}
+/******************************************
+/* About me
+/*******************************************/
+.about{
+  background: linear-gradient(rgba(227, 67, 108, .6),  rgba(160, 144, 62, .6), rgba(220, 123, 153, .6),rgba(84, 79, 51, .6));
+  display: flex;
+  margin: 5% auto;
+  width: 80%;
+  padding: 3rem;
+  border-radius: 2rem;
+}
+.photo{
+  border-radius: 2rem;
+  display: block;
+  height: 30rem;
+}
+
+.aboutZrybea{
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.aboutZrybea p{
+  padding-top: 2rem;
+  line-height: 1.2;
+}
+
+
+
+/******************************************
+/* portfolio
+/*******************************************/
+.portfolio{
+  font-size: 4rem;
+  margin: 10rem 0;
+  text-align: center;
+}
+/******************************************
+/* Connection
+/*******************************************/
+input, button, textarea{
+  border-radius: 1rem;
+  border: 1px solid rgb(208, 72, 107);
+  font-family: "Turret road";
+  padding: 1rem;
+  margin-top: 5%;
+}
+input, textarea{
+  width: 200%;
+}
+textarea{
+  height: 15rem;
+}
+button{
+  background: rgb(208, 72, 107)
+}
+button:hover{
+  background: rgb(188, 65, 97);
+}
+.connect{
+  background: linear-gradient(rgba(227, 67, 108, .4),  rgba(160, 144, 62, .4), rgba(220, 123, 153, .4),rgba(84, 79, 51, .4));
+  border-radius: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  padding: 3rem;
+  margin: 10% auto;
+  width: 80%;
+}
+
+.contactGreeting{
+  margin-right: 15%;
+  width: 40%;
+}
+.contactGreeting h2{
+  color: rgb(208, 72, 107);
+  font-size: 4rem;
+  font-weight: 700;
+  padding-bottom: 5%;
+}
+
+.contactGreeting p{
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.contactGreeting a{
+  color: rgb(208, 72, 107);
+}
+
+/******************************************
+/* footer
+/*******************************************/
+ .socialsFooter, footer p{
+   font-size: 1.5rem;
+   padding: 1rem 0;
+
+   text-align: center;
+ }
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
