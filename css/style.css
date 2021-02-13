@@ -48,7 +48,7 @@ main{
    height: 10rem;
    width:100%;
  }
-.header, h1, .portfolio{
+.header, h1, .portfolioTitle, .aboutMeTitle{
   font-family: 'Monoton';
 }
 
@@ -180,16 +180,59 @@ font-family: 'Turret Road', cursive; */
   line-height: 1.2;
 }
 
-
+.aboutMeTitle{
+  font-size: 4rem;
+  margin-top: 30rem;
+  text-align: center;
+}
 
 /******************************************
 /* portfolio
 /*******************************************/
-.portfolio{
-  font-size: 4rem;
-  margin: 10rem 0;
+h4{
+  font-size: 1.2rem;
   text-align: center;
 }
+.portfolioItems img{
+  border-radius: 2rem;
+  height: 30rem;
+}
+.portfolioItems h3{
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.portfolioItems a{
+  border-radius: 2rem;
+  display: block;
+  margin-top: 2rem;
+}
+
+.portfolioItems p{
+  font-size: 1.8rem;
+  line-height: 1.2;
+  margin: 0 auto;
+  width: 90%;
+
+}
+.portfolioItems{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.portfolioTitle{
+  font-size: 4rem;
+  margin: 30rem 0 10rem 0;
+  text-align: center;
+}
+
+.horoscopeApp, .mockUp, .alwaysSunny{
+  text-align: center;
+}
+
+
 /******************************************
 /* Connection
 /*******************************************/
@@ -252,6 +295,236 @@ button:hover{
    text-align: center;
  }
 
+
+ /******************************************
+ /* Media Queries
+ /*******************************************/
+@media (min-width:1455px) and (max-width:1602px){
+  .portfolioItems img{
+    height: 28rem;
+  }
+
+
+}
+
+@media (min-width:1356px) and (max-width:1454px){
+  .portfolioItems img{
+    height: 26rem;
+  }
+}
+
+@media (min-width:1258px) and (max-width:1355px){
+  .portfolioItems img{
+    height: 24rem;
+  }
+
+}
+
+@media (min-width:1203px) and (max-width:1257px){
+
+    .portfolioItems img{
+      height: 22rem;
+    }
+}
+@media screen and (max-width:1202px){
+  .portfolioItems img{
+    height: 20rem;
+}
+  .portfolioItems p{
+    height: 5rem;
+  }
+
+    }
+  @media screen and (max-width:1061px){
+    html{
+      font-size: 55%;
+    }
+        .locate{
+          font-size: 2.5rem;
+        }
+.logoHeader{
+  width: 20%;
+}
+        .aboutMeTitle{
+          font-size: 4rem;
+          margin-top: 20rem;
+        }
+        .aboutZrybea{
+          font-size: 1.5rem;
+        }
+        .portfolioTitle{
+          margin: 20rem 0 10rem 0;
+        }
+      .portfolioItems img{
+        height: 18rem;
+    }
+
+      .portfolioItems h3{
+        height: 5rem;
+      }
+
+  }
+  @media screen and (max-width:928px){
+    input, textarea{
+      width:150%;
+    }
+    .aboutMeTitle{
+
+      margin-top: 16rem;
+    }
+    .portfolioTitle{
+      margin: 16rem 0 10rem 0;
+    }
+        }
+    @media screen and (max-width:841px){
+              .portfolioItems img{
+                height: 16rem;
+            }
+              }
+  @media screen and (max-width:774px){
+      .logoHeader{
+      width: 25%;
+                        }
+    .photo{
+  height: 25rem;
+                        }
+      .portfolioItems p{
+      height: 9rem;
+                      }
+                        }
+
+                        @media screen and (max-width:774px){
+
+                    .drop1{
+                      display:none;
+                    }
+                    .purchaseMe{
+                      width:75%;
+                    }
+                    .about{
+                      width:90%;
+                    }
+                    .portfolioItems{
+                      display: inherit;
+                    }
+                    .portfolioItems img{
+                      height: 15rem;
+                    }
+
+                    .portfolioItems a{
+                      margin: 0 auto;
+                      width:40%;
+                    }
+
+                    .portfolioItems p{
+                      margin: 0 auto;
+                      width: 80%;
+
+                    }
+
+                                              }
+                                              @media screen and (max-width:696px){
+                                                input, textarea{
+                                                  width:100%;
+                                                }
+.logoHeader{
+  width:30%;
+}
+                                                .contactGreeting h2{
+                                                  font-size: 3rem;
+                                                }
+
+                                                .contactGreeting p{
+                                                  font-size: 2rem;
+                                                }
+                                                                    }
+  @media screen and (max-width:575px) {
+    .locate{
+      font-size: 2rem;
+    }
+    .about, .connect{
+      display: inherit;
+    }
+    .photo{
+      margin: 0 auto;
+    }
+    .contactGreeting{
+      width: 90%;
+    }
+    .aboutMeTitle{
+      margin-top: 10rem;
+    }
+
+    .portfolioTitle{
+      margin: 10rem 0;
+    }
+    .portfolioItems img{
+      height: 20rem;
+      margin: 0 auto;
+        }
+        .portfolioItems a{
+          width:60%;
+        }
+  }
+  @media screen and (max-width:504px) {
+    .logoHeader{
+      width: 35%;
+    }
+    .logoIntro img{
+      height: 30rem;
+    }
+
+
+    .homeName{
+      font-size: 3rem;
+    }
+
+    .homeTitle{
+      font-size: 2.1rem;
+    }
+
+
+  }
+
+  @media screen and (max-width:465px) {
+    .portfolioItems a{
+      width:75%;
+    }
+  }
+
+  @media screen and (max-width:464px) {
+    .drop2{
+      display: none;
+    }
+    .locate{
+      font-size: 1.8rem;
+    }
+    .logoHeader{
+      width:30%;
+    }
+    .logoIntro img{
+      height: 20rem;
+    }
+
+
+    .homeName{
+      font-size: 2rem;
+    }
+
+    .homeTitle{
+      font-size: 1.4rem;
+    }
+    .purchaseMe p{
+      padding-top: 2rem;
+    }
+
+  .portfolioItems a{
+    width:90%;
+  }
+  .portfolioItems img{
+    height: 18rem;
+  }
+  }
 /* Clear fix hack */
 .clearfix:after {
      content: ".";

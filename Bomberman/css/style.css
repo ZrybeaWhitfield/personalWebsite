@@ -1,0 +1,114 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+body{
+  background: rgb(238, 205, 97);
+  font-family: "Lemonada", helvetica, sans-serif;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+footer{
+  background: rgb(0,0,0);
+  bottom: 0;
+  font-size: 3rem;
+  height: 10rem;
+  margin: 0 auto;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+h1{
+  padding-top: 3rem;
+  color: rgb(250, 250, 250)
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+img{
+  display: block;
+  height: 12rem;
+}
+p{
+  padding-bottom: 2rem;
+}
+span{
+  background: rgb(250, 250, 250);
+  border-radius: 2rem;
+}
+
+span:hover{
+  color:rgb(250, 250, 250);
+  background: rgb(0,0,0)
+}
+.taglines{
+  position: fixed;
+  left: 30%;
+  top: 30rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.frank{
+  position: relative;
+  left: 45%;
+  top: 30rem;
+}
+
+
+.charlie, .dennis, .dee, .mac{
+  position: fixed;
+  text-align: center;
+
+}
+
+.charlie{
+  left: 45%;
+  top:0;
+}
+
+.dee{
+  top: 40%;
+}
+
+.dennis{
+  top:40%;
+  right:0;
+}
+
+.mac{
+  bottom: 10rem;
+  left: 45%;
+}
+
+ .moveRight{
+  transform: translateX(40rem);
+
+}
+
+ .moveLeft{
+  transform: translateX(-45rem) scaleX(-1);
+
+}
+
+.moveUp{
+  transform: translateY(-20rem);
+}
+ .moveDown{
+  transform: translateY(20rem);
+}
+.hide{
+  display: none;
+}
+
+.backToStart{
+  transform: translateX(0) translateY(0);
+}
