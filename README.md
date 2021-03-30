@@ -5,7 +5,6 @@ This is my personal website! It's always a work in progress, but check out the l
 Link: https://zwhitfield.dev/
 
 
-## How It's Made:
 # Tech used:
 HTML & CSS
 
