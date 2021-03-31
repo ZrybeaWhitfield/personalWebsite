@@ -6,7 +6,7 @@ Link: https://zwhitfield.dev/
 
 
 # Tech used:
-HTML & CSS
+HTML, CSS, & JavaScript
 
 This is my custom website. I wanted to create something that was totally representative of me. It's simple but sweet and mobile/tablet friendly. Pop over and say hi!
 
