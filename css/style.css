@@ -288,14 +288,20 @@ button:hover{
 /******************************************
 /* footer
 /*******************************************/
- .socialsFooter, footer p{
+ .socialsFooter, .copyP{
    font-size: 1.5rem;
    padding: 1rem 0;
 
    text-align: center;
  }
 
-
+ .quoteParagraph{
+   font-size: 1.2rem;
+   line-height: 1.2;
+   margin: 0 auto;
+   text-align: center;
+   width: 60%;
+ }
  /******************************************
  /* Media Queries
  /*******************************************/
