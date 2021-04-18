@@ -26,7 +26,7 @@ a:hover{
 }
 body {
    font-family: "Turret Road", Helvetica, Arial, sans-serif;
-     background: rgb(228 228 240);
+     background: rgb(228, 228, 240);
      background-repeat: no-repeat;
      background-size: cover;
 
@@ -112,6 +112,7 @@ font-family: 'Turret Road', cursive; */
 /*******************************************/
 .backToTop{
   bottom: 1rem;
+  font-size: 2rem;
   display: none;
   position: fixed;
   right: 1rem;
@@ -188,6 +189,7 @@ font-family: 'Turret Road', cursive; */
 }
 
 .aboutMeTitle{
+  color: rgb(57,26, 54);
   font-size: 4rem;
   margin-top: 30rem;
   text-align: center;
@@ -219,25 +221,46 @@ h4{
 .portfolioItems p{
   font-size: 1.8rem;
   line-height: 1.2;
-  margin: 0 auto;
+  margin: 1rem auto;
   width: 90%;
 
 }
-.portfolioItems{
+
+.portfolioLayout{
+  background: rgba(220, 123, 153, .6);
+    /* background: rgb(206, 206, 216); */
+  /* background: linear-gradient(rgba(227, 67, 108, .6),  rgba(160, 144, 62, .6), rgba(220, 123, 153, .6),rgba(84, 79, 51, .6)); */
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+
+.portfolioLayout section{
+  text-align: center;
+  margin-top: 5%;
+  width: 80%;
+}
+
+.evens{
+  background: rgb(228, 228, 240);
+}
+
+/* .portfolioItems{
   display: flex;
   justify-content: space-evenly;
-}
+} */
 
 
 .portfolioTitle{
+  color: rgb(57,26, 54);
   font-size: 4rem;
   margin: 30rem 0 10rem 0;
   text-align: center;
 }
 
-.horoscopeApp, .mockUp, .alwaysSunny{
+/* .horoscopeApp, .mockUp, .alwaysSunny{
   text-align: center;
-}
+} */
 
 
 /******************************************
@@ -293,6 +316,7 @@ button:hover{
 }
 
 .contactTitle{
+  color: rgb(57,26, 54);
   font-size: 4rem;
   margin-top: 30rem;
   text-align: center;

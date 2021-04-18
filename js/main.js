@@ -20,7 +20,7 @@ function preloadImages(){
     }
 }
 
-preloadImages("./img/afroLogo.png", "./img/alwaysSunny.png", "./img/horoscope.png", "./img/levelGround.png", "./img/websiteImage.jpeg");
+preloadImages("./img/afroLogo.png", "./img/alwaysSunny.png", "./img/horoscope.png", "./img/levelGround.png", "./img/matchingImg.png", "./img/rockPaperImg.png", "./img/wuTangImg.png", "./img/websiteImage2.jpeg");
 
 
 //footer quotes
