@@ -48,7 +48,7 @@ main{
    height: 10rem;
    width:100%;
  }
-.header, h1, .portfolioTitle, .aboutMeTitle{
+.header, h1, .portfolioTitle, .aboutMeTitle, .contactTitle{
   font-family: 'Monoton';
 }
 
@@ -110,6 +110,13 @@ font-family: 'Turret Road', cursive; */
 /******************************************
 /* Intro Section
 /*******************************************/
+.backToTop{
+  bottom: 1rem;
+  display: none;
+  position: fixed;
+  right: 1rem;
+}
+
 .logoIntro img{
   display: block;
   height: 40rem;
@@ -285,6 +292,11 @@ button:hover{
   color: rgb(208, 72, 107);
 }
 
+.contactTitle{
+  font-size: 4rem;
+  margin-top: 30rem;
+  text-align: center;
+}
 /******************************************
 /* footer
 /*******************************************/

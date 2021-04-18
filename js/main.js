@@ -36,3 +36,23 @@ preloadImages("./img/afroLogo.png", "./img/alwaysSunny.png", "./img/horoscope.pn
     document.querySelector('.quoteParagraph').innerText = (quotes[rand])
   }
   writeRandomQuote();
+
+//scroll to top arrow
+let bttn = document.querySelector(".backToTop")
+
+window.onscroll = function() {scrollFunction()}
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    bttn.style.display = "block";
+  } else {
+    bttn.style.display = "none";
+  }
+}
+
+bttn.addEventListener("click", backToTop)
+
+function backToTop(){
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+
+}
