@@ -1,28 +1,3 @@
-let text = 'Software Engineer'
-let i = 0
-setInterval(function () {
-  // stops inconsistent cursor behavior where it just doesn't show up for
-  // letters indexed 5, 7, 10, 11, 13...etc.
-  let cursor = text[i % text.length] === ' ' ? '' : '_'
-  // text.length increased to not cut-off last character
-  let displayText = text.substring(0, (i % text.length) + 1)
- document.getElementById('typeTitle').innerText = displayText + cursor
-i++
-}, 250)
-
-//preload images
-let images = new Array();
-
-function preloadImages(){
-    for (i=0; i < preloadImages.arguments.length; i++){
-         images[i] = new Image();
-        images[i].src = preloadImages.arguments[i];
-    }
-}
-
-preloadImages("./img/afroLogo.png", "./img/alwaysSunny.png", "./img/horoscope.png", "./img/levelGround.png", "./img/matchingImg.png", "./img/rockPaperImg.png", "./img/wuTangImg.png", "./img/websiteImage2.jpeg");
-
-
 //footer quotes
  function writeRandomQuote() {
     let quotes = new Array();
