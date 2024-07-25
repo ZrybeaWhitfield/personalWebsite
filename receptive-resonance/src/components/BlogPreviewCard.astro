@@ -1,0 +1,24 @@
+---
+import type { arrayOutputType } from 'astro/zod';
+
+interface Props {
+    articleTitle: string;
+    date: string;
+    preview: string;
+    topics: object;
+}
+// TODO: Check how to get array for topics
+const {articleTitle, date, preview, topics} = Astro.props;
+---
+
+<article>
+    <h3>{articleTitle}</h3>
+    <span>{date}</span>
+    <p>{preview}</p>
+    <!-- Map over array of topics and render lis programmatically -->
+    <ul>
+        <li>{topics}</li>
+        <li>{topics}</li>
+        <li>{topics}</li>
+    </ul>
+</article>

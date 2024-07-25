@@ -1,0 +1,595 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+a{
+  border-radius: 1rem;
+  color: rgb(80, 50, 100);
+  padding: .4rem;
+  text-decoration: none;
+
+}
+a:hover{
+  background:rgba(97,66,94, .6);
+}
+body {
+   font-family: "Turret Road", Helvetica, Arial, sans-serif;
+     background: rgb(244,244,255);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+
+}
+
+main{
+  margin-top: 5rem;
+
+}
+ footer{
+   height: 10rem;
+   width:100%;
+ }
+.header, h1, .portfolioTitle, .about-heading, .contactTitle{
+  font-family: 'Monoton';
+}
+
+/******************************************
+/*Header section
+/*******************************************/
+
+ header{
+   height: 10rem;
+   top: 0;
+   width:100%;
+   background: rgb(244,244,255);
+   box-shadow: 0px 15px 10px -15px rgb(173,173,180);
+ }
+
+ .logoHeader img{
+   display: block;
+   height: 5rem;
+   margin: 0 auto;
+}
+
+.logoHeader p, .logoIntro p{
+  text-align: center;
+}
+
+.locate ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+ .logoHeader{
+   font-family: "Stalinist One";
+   margin-left: 5%;
+   width: 15%;
+ }
+
+
+ .logoTitle{
+   color: rgb(250,250,250);
+   font-size: .8rem;
+ }
+
+
+ .locate{
+   font-size: 3rem;
+   position: absolute;
+   top: 5rem;
+   left:35%;
+   width: 60%;
+ }
+
+
+/* font-family: 'Monoton', cursive;
+font-family: 'Turret Road', cursive; */
+
+/******************************************
+/* Intro Section
+/*******************************************/
+.backToTop{
+  bottom: 1rem;
+  font-size: 2rem;
+  display: none;
+  position: fixed;
+  right: 1rem;
+}
+
+/* TEST BORDERS */
+/* .home, .about, .connect{
+  border:2px solid black;
+} */
+/* ********** */
+
+
+.home-img{
+  border-radius: 50%;
+  border-top:1px solid rgb(228, 228, 239, .5);
+  border-left:1px solid rgb(228, 228, 239, .5);
+  box-shadow: 15px 15px 15px -8px rgb(173,173,180);
+  display: block;
+  height: 20rem;
+  margin: 0 auto;
+}
+
+.home-para{
+  color: rgb(80, 50, 100);
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.home span:hover{
+  color: rgb(255, 105, 180);
+}
+
+.logoIntro{
+  font-family: "Stalinist One";
+}
+
+.homeName{
+  font-size: 4.4rem;
+}
+
+.homeTitle{
+  font-size: 3.2rem;
+}
+
+.socials{
+  font-size: 4rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.purchaseMe{
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 10rem;
+  text-align: center;
+  font-size: 5rem;
+  text-decoration: none;
+
+}
+/******************************************
+/* About me
+/*******************************************/
+.about{
+  margin-top: 5rem;
+  padding: 3rem;
+}
+
+.about-heading{
+  color: rgb(80, 50, 100);
+  font-size: 4rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.about-section{
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.about-heading, .about-section {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.about-section-para{
+  padding-top: 2rem;
+  line-height: 1.2;
+}
+
+
+
+/******************************************
+/* portfolio
+/*******************************************/
+h4{
+  font-size: 1.2rem;
+  text-align: center;
+}
+.portfolioItems img{
+  border-radius: 2rem;
+  height: 30rem;
+}
+.portfolioItems h3{
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.portfolioItems a{
+  border-radius: 2rem;
+  display: block;
+  margin-top: 2rem;
+}
+
+.portfolioItems p{
+  font-size: 1.8rem;
+  line-height: 1.2;
+  margin: 1rem auto;
+  width: 90%;
+
+}
+
+.portfolioLayout{
+  background: rgba(220, 123, 153, .6);
+    /* background: rgb(206, 206, 216); */
+  /* background: linear-gradient(rgba(227, 67, 108, .6),  rgba(160, 144, 62, .6), rgba(220, 123, 153, .6),rgba(84, 79, 51, .6)); */
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+
+.portfolioLayout section{
+  text-align: center;
+  margin-top: 5%;
+  width: 80%;
+}
+
+.evens{
+  background: rgb(228, 228, 240);
+}
+
+/* .portfolioItems{
+  display: flex;
+  justify-content: space-evenly;
+} */
+
+
+.portfolioTitle{
+  color: rgb(57,26, 54);
+  font-size: 4rem;
+  margin: 30rem 0 10rem 0;
+  text-align: center;
+}
+
+/* .horoscopeApp, .mockUp, .alwaysSunny{
+  text-align: center;
+} */
+
+
+/******************************************
+/* Connection
+/*******************************************/
+input, button, textarea{
+  border-radius: 1rem;
+  border: 1px solid rgb(208, 72, 107);
+  font-family: "Turret road";
+  padding: 1rem;
+  margin-top: 5%;
+}
+input, textarea{
+  width: 200%;
+}
+textarea{
+  height: 15rem;
+}
+button{
+  background: rgb(208, 72, 107)
+}
+button:hover{
+  background: rgb(188, 65, 97);
+}
+.connect{
+  background: linear-gradient(rgba(227, 67, 108, .4),  rgba(160, 144, 62, .4), rgba(220, 123, 153, .4),rgba(84, 79, 51, .4));
+  border-radius: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  padding: 3rem;
+  margin: 10% auto;
+  width: 80%;
+}
+
+.contactGreeting{
+  margin-right: 15%;
+  width: 40%;
+}
+.contactGreeting h2{
+  color: rgb(208, 72, 107);
+  font-size: 4rem;
+  font-weight: 700;
+  padding-bottom: 5%;
+}
+
+.contactGreeting p{
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.contactGreeting a{
+  color: rgb(208, 72, 107);
+}
+
+.connect-heading{
+  color: rgb(80, 50, 100);
+  font-size: 4rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+/******************************************
+/* footer
+/*******************************************/
+ .socialsFooter, .copyP{
+   font-size: 1.5rem;
+   padding: 1rem 0;
+
+   text-align: center;
+ }
+
+ .quoteParagraph{
+   font-size: 1.2rem;
+   line-height: 1.2;
+   margin: 0 auto;
+   text-align: center;
+   width: 60%;
+ }
+ /******************************************
+ /* Media Queries
+ /*******************************************/
+@media (min-width:1455px) and (max-width:1602px){
+  .portfolioItems img{
+    height: 28rem;
+  }
+
+
+}
+
+@media (min-width:1356px) and (max-width:1454px){
+  .portfolioItems img{
+    height: 26rem;
+  }
+}
+
+@media (min-width:1258px) and (max-width:1355px){
+  .portfolioItems img{
+    height: 24rem;
+  }
+
+}
+
+@media (min-width:1203px) and (max-width:1257px){
+
+    .portfolioItems img{
+      height: 22rem;
+    }
+}
+@media screen and (max-width:1202px){
+  .portfolioItems img{
+    height: 20rem;
+}
+  .portfolioItems p{
+    height: 5rem;
+  }
+
+    }
+  @media screen and (max-width:1061px){
+    html{
+      font-size: 55%;
+    }
+        .locate{
+          font-size: 2.5rem;
+        }
+.logoHeader{
+  width: 20%;
+}
+        .about-heading{
+          font-size: 4rem;
+          margin-top: 20rem;
+        }
+        .about-section{
+          font-size: 1.5rem;
+        }
+        .portfolioTitle{
+          margin: 20rem 0 10rem 0;
+        }
+      .portfolioItems img{
+        height: 18rem;
+    }
+
+      .portfolioItems h3{
+        height: 5rem;
+      }
+
+  }
+  @media screen and (max-width:928px){
+    input, textarea{
+      width:150%;
+    }
+    .about-heading{
+
+      margin-top: 16rem;
+    }
+    .portfolioTitle{
+      margin: 16rem 0 10rem 0;
+    }
+        }
+    @media screen and (max-width:841px){
+              .portfolioItems img{
+                height: 16rem;
+            }
+              }
+  @media screen and (max-width:774px){
+      .logoHeader{
+      width: 25%;
+                        }
+    .photo{
+  height: 25rem;
+                        }
+      .portfolioItems p{
+      height: 9rem;
+                      }
+                        }
+
+                        @media screen and (max-width:774px){
+
+                    .drop1{
+                      display:none;
+                    }
+                    .purchaseMe{
+                      width:75%;
+                    }
+                    .about{
+                      width:90%;
+                    }
+                    .portfolioItems{
+                      display: inherit;
+                    }
+                    .portfolioItems img{
+                      height: 15rem;
+                    }
+
+                    .portfolioItems a{
+                      margin: 0 auto;
+                      width:40%;
+                    }
+
+                    .portfolioItems p{
+                      margin: 0 auto;
+                      width: 80%;
+
+                    }
+
+                                              }
+                                              @media screen and (max-width:696px){
+                                                input, textarea{
+                                                  width:100%;
+                                                }
+.logoHeader{
+  width:30%;
+}
+                                                .contactGreeting h2{
+                                                  font-size: 3rem;
+                                                }
+
+                                                .contactGreeting p{
+                                                  font-size: 2rem;
+                                                }
+                                                                    }
+  @media screen and (max-width:575px) {
+    .locate{
+      font-size: 2rem;
+    }
+    .about, .connect{
+      display: inherit;
+    }
+    .photo{
+      margin: 0 auto;
+    }
+    .contactGreeting{
+      width: 90%;
+    }
+    .about-heading{
+      margin-top: 10rem;
+    }
+
+    .portfolioTitle{
+      margin: 10rem 0;
+    }
+    .portfolioItems img{
+      height: 20rem;
+      margin: 0 auto;
+        }
+        .portfolioItems a{
+          width:60%;
+        }
+  }
+  @media screen and (max-width:504px) {
+    .logoHeader{
+      width: 35%;
+    }
+    .logoIntro img{
+      height: 30rem;
+    }
+
+
+    .homeName{
+      font-size: 3rem;
+    }
+
+    .homeTitle{
+      font-size: 2.1rem;
+    }
+
+
+  }
+
+  @media screen and (max-width:465px) {
+    .portfolioItems a{
+      width:75%;
+    }
+  }
+
+  @media screen and (max-width:464px) {
+    .drop2{
+      display: none;
+    }
+    .locate{
+      font-size: 1.8rem;
+    }
+    .logoHeader{
+      width:30%;
+    }
+    .logoIntro img{
+      height: 20rem;
+    }
+
+
+    .homeName{
+      font-size: 2rem;
+    }
+
+    .homeTitle{
+      font-size: 1.4rem;
+    }
+    .purchaseMe p{
+      padding-top: 2rem;
+    }
+
+  .portfolioItems a{
+    width:90%;
+  }
+  .portfolioItems img{
+    height: 18rem;
+  }
+  }
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
